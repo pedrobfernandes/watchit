@@ -1,0 +1,88 @@
+{
+  "hash": "a70232df",
+  "configHash": "7d6fbbb7",
+  "lockfileHash": "b4ee3cfc",
+  "browserHash": "42b3e8d6",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "6680f435",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "57f88165",
+      "needsInterop": true
+    },
+    "react-router": {
+      "src": "../../node_modules/react-router/dist/development/index.mjs",
+      "file": "react-router.js",
+      "fileHash": "af711d20",
+      "needsInterop": false
+    },
+    "@tanstack/react-query": {
+      "src": "../../node_modules/@tanstack/react-query/build/modern/index.js",
+      "file": "@tanstack_react-query.js",
+      "fileHash": "0038980b",
+      "needsInterop": false
+    },
+    "@tanstack/react-query-devtools": {
+      "src": "../../node_modules/@tanstack/react-query-devtools/build/modern/index.js",
+      "file": "@tanstack_react-query-devtools.js",
+      "fileHash": "36f28d5a",
+      "needsInterop": false
+    },
+    "react-icons/md": {
+      "src": "../../node_modules/react-icons/md/index.mjs",
+      "file": "react-icons_md.js",
+      "fileHash": "54abe2c7",
+      "needsInterop": false
+    },
+    "react-icons/ri": {
+      "src": "../../node_modules/react-icons/ri/index.mjs",
+      "file": "react-icons_ri.js",
+      "fileHash": "93f6eafa",
+      "needsInterop": false
+    },
+    "react-icons/fi": {
+      "src": "../../node_modules/react-icons/fi/index.mjs",
+      "file": "react-icons_fi.js",
+      "fileHash": "accc6ca9",
+      "needsInterop": false
+    },
+    "react-icons/rx": {
+      "src": "../../node_modules/react-icons/rx/index.mjs",
+      "file": "react-icons_rx.js",
+      "fileHash": "e1546842",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "SUXNJKMM-QVX7TABV": {
+      "file": "SUXNJKMM-QVX7TABV.js"
+    },
+    "LDUQ2GE4-QVDKGHPC": {
+      "file": "LDUQ2GE4-QVDKGHPC.js"
+    },
+    "chunk-MUNQJV6W": {
+      "file": "chunk-MUNQJV6W.js"
+    },
+    "chunk-TYCJHKIY": {
+      "file": "chunk-TYCJHKIY.js"
+    },
+    "chunk-L2T5CTYQ": {
+      "file": "chunk-L2T5CTYQ.js"
+    },
+    "chunk-ELZNCBPK": {
+      "file": "chunk-ELZNCBPK.js"
+    },
+    "chunk-RO25ZKRR": {
+      "file": "chunk-RO25ZKRR.js"
+    },
+    "chunk-QWN5BXRD": {
+      "file": "chunk-QWN5BXRD.js"
+    }
+  }
+}
