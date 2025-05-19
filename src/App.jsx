@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 export default function App()
 {
-    const [category, setCategory] = useState("popular");
+    const [category, setCategory] = useState("top_rated");
     
     return(
         <>
