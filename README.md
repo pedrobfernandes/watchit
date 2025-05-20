@@ -1,12 +1,47 @@
-# 🎬 watchit
+[watchit](https://watchit123.netlify.app/)
+
+# watchit
 
 **watchit** é um aplicativo web feito em **React** que consome a API do [TMDB (The Movie Database)](https://www.themoviedb.org/) para exibir listas de filmes e séries populares e mais bem avaliados. O projeto permite também pesquisar filmes/séries pelo nome, visualizar detalhes e trailers, elenco e onde assistir.
 
-## 🌐 Acesse agora
+## Screenshots
 
-👉 [watchit](https://watchit123.netlify.app/)
+<p>
+  <img loading="lazy" src="/Screenshots/img01.jpg"/>
+  <img loading="lazy" src="/Screenshots/img02.jpg"/>
+  <img loading="lazy" src="/Screenshots/img12.jpg"/>
+</p>
 
-## 🚀 Funcionalidades
+<p align="center">
+  <img loading="lazy" src="/Screenshots/img13.jpg"/>
+  <img loading="lazy" src="/Screenshots/img14.jpg"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="/Screenshots/img05.jpg"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="/Screenshots/img06.jpg"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="/Screenshots/img07.jpg"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="/Screenshots/img08.jpg"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="/Screenshots/img09.jpg"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="/Screenshots/img10.jpg"/>
+</p>
+
+## Funcionalidades
 
 - Exibe **filmes e séries populares** (endpoint `popular`)
 - Exibe os **mais votados** (endpoint `top_rated`)
@@ -27,7 +62,7 @@
 
 ---
 
-## 🛠 Tecnologias
+## Tecnologias
 
 - **React**
 - **CSS puro**
@@ -42,7 +77,12 @@
 
 ---
 
-## 🎯 Propósito do projeto
+## Proposito do projeto
 
 Este projeto foi criado como parte do meu processo de aprendizado em React, mas com o objetivo de ser **totalmente funcional e usável na prática**.
+
+---
+
+## Autor
+Pedro Fernandes
 
