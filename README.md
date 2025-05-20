@@ -6,10 +6,9 @@
 
 ## Screenshots
 
-<p>
+<p align="center">
   <img loading="lazy" src="/Screenshots/img01.jpg"/>
   <img loading="lazy" src="/Screenshots/img02.jpg"/>
-  <img loading="lazy" src="/Screenshots/img12.jpg"/>
 </p>
 
 <p align="center">
