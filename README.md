@@ -7,38 +7,26 @@
 ## Screenshots
 
 <p align="center">
-  <img loading="lazy" src="/Screenshots/img01.jpg"/>
-  <img loading="lazy" src="/Screenshots/img02.jpg"/>
+  <img loading="lazy" src="/Screenshots/img01.png"/>
+  <img loading="lazy" src="/Screenshots/img02.png"/>
 </p>
 
 <p align="center">
-  <img loading="lazy" src="/Screenshots/img13.jpg"/>
-  <img loading="lazy" src="/Screenshots/img14.jpg"/>
+  <img loading="lazy" src="/Screenshots/img04.png"/>
 </p>
 
 <p align="center">
-  <img loading="lazy" src="/Screenshots/img05.jpg"/>
+  <img loading="lazy" src="/Screenshots/img05.png"/>
 </p>
 
 <p align="center">
-  <img loading="lazy" src="/Screenshots/img06.jpg"/>
+  <img loading="lazy" src="/Screenshots/img06.png"/>
 </p>
 
 <p align="center">
-  <img loading="lazy" src="/Screenshots/img07.jpg"/>
+  <img loading="lazy" src="/Screenshots/img07.png"/>
 </p>
 
-<p align="center">
-  <img loading="lazy" src="/Screenshots/img08.jpg"/>
-</p>
-
-<p align="center">
-  <img loading="lazy" src="/Screenshots/img09.jpg"/>
-</p>
-
-<p align="center">
-  <img loading="lazy" src="/Screenshots/img10.jpg"/>
-</p>
 
 ## Funcionalidades
 
