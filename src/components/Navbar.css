@@ -32,7 +32,7 @@ header
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.2rem 0.5rem;
+    padding: 0.2rem 1rem;
     border: none;
     border-radius: 0.8rem;
 }
@@ -44,7 +44,7 @@ header
 
 .hamburger
 {
-    padding: 0.3rem 0.6rem;
+    padding: 0.2rem 1rem;
     font-size: 1.4rem;
     font-weight: var(--bolder-font);
     background-color: var(--secondary-color);

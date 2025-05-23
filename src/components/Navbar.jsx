@@ -73,7 +73,7 @@ export default function Navbar(props)
                         type="button"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                        {isMenuOpen ? "Fechar menu" : "Abrir menu"}
+                       Menu
                     </button>
                 )}
 
