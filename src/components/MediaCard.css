@@ -1,9 +1,14 @@
+.link-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
 .card
 {
     border: var(--border-style);
     border-radius: 0.5rem;
     transition: var(--transitions);
-    position: relative;
     aspect-ratio: 500/750;
     overflow: hidden;
 }
@@ -31,68 +36,27 @@
     transform: var(--transform-active);
 }
 
-.link-overlay
+
+.item-info
 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.9);
-    color: var(--text-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: var(--bolder-font);
+    margin: 0.2rem;
     text-align: center;
 }
 
-.card:active .link-overlay
-{
-    opacity: 1;
-}
 
-.overlay-content
-{
-    font-size: 1.4rem;
-    font-weight: var(--bolder-font);
-    margin: 0;
-    transform: translateY(2rem);
-    transition: transform 0.3s ease-in-out;
-}
-
-
-.overlay-content.overlay-align
+.item-info.info-align
 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
-    font-weight: var(--medium-font);
 }
 
-.overlay-content.overlay-align span
+.item-info.info-align span
 {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-}
-
-
-.card:hover .overlay-content,
-.card:focus .overlay-content
-{
-    transform: translateY(0);
-}
-
-@media (hover: hover)
-{
-    .card:hover .link-overlay,
-    .card:focus .link-overlay
-    {
-        opacity: 1;
-    }
 }

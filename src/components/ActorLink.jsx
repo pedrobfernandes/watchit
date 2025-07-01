@@ -15,43 +15,43 @@ export default function ActorLink(props)
         : `${actor.name}`;
        
     return(
-        <a
-            href={actorUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card actor-card"
-        >
+        <div className="link-container">
+            <a
+                href={actorUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card actor-card"
+            >
 
-            {
-                actor.profile_path ?
-                (
-                    <img
-                        ref={elementRef}
-                        src={`https://image.tmdb.org/t/p/w185${actor.profile_path}`}
-                        srcSet={`
-                            https://image.tmdb.org/t/p/w45${actor.profile_path} 45w,
-                            https://image.tmdb.org/t/p/w92${actor.profile_path} 92w,
-                            https://image.tmdb.org/t/p/w185${actor.profile_path} 185w,
-                            https://image.tmdb.org/t/p/w300${actor.profile_path} 300w
-                        `}
-                        sizes="(max-width: 35.5em) 92px, (max-width: 64em) 150px, 185px"
-                        alt={`Foto de ${actor.name}`}
-                        loading={isVisible ? "eager" : "lazy"}
-                        fetchPriority={isVisible ? "high" : "auto"}
-                        width={185}
-                        height={278}
-                    />
-                ) :
-                (
-                    <FallbackImage/>
-                )
-            }
-            <div className="link-overlay">
-                <p className="overlay-content">
-                    {actorInfo}
-                </p>
-            </div>
+                {
+                    actor.profile_path ?
+                    (
+                        <img
+                            ref={elementRef}
+                            src={`https://image.tmdb.org/t/p/w185${actor.profile_path}`}
+                            srcSet={`
+                                https://image.tmdb.org/t/p/w45${actor.profile_path} 45w,
+                                https://image.tmdb.org/t/p/w92${actor.profile_path} 92w,
+                                https://image.tmdb.org/t/p/w185${actor.profile_path} 185w,
+                                https://image.tmdb.org/t/p/w300${actor.profile_path} 300w
+                            `}
+                            sizes="(max-width: 35.5em) 92px, (max-width: 64em) 150px, 185px"
+                            alt={`Foto de ${actor.name}`}
+                            loading={isVisible ? "eager" : "lazy"}
+                            fetchPriority={isVisible ? "high" : "auto"}
+                            width={185}
+                            height={278}
+                        />
+                    ) :
+                    (
+                        <FallbackImage/>
+                    )
+                }
+            </a>
+            <p className="item-info">
+                {actorInfo}
+            </p>
 
-        </a>
+        </div>
     );
 }
