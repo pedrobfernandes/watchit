@@ -45,7 +45,7 @@ export default function MediaCard(props)
     }
         
     return(
-            <div className="link-container">
+            <article className="link-container">
                 <Link
                     to={`/details/${type}/${data.id}`}
                     className="card"
@@ -80,6 +80,6 @@ export default function MediaCard(props)
                     <span><MdStar aria-hidden="true"/> {rating}</span>
                 </p>
 
-            </div>
+            </article>
     );
 }

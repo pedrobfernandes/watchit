@@ -15,7 +15,7 @@ export default function ActorLink(props)
         : `${actor.name}`;
        
     return(
-        <div className="link-container">
+        <article className="link-container">
             <a
                 href={actorUrl}
                 target="_blank"
@@ -52,6 +52,6 @@ export default function ActorLink(props)
                 {actorInfo}
             </p>
 
-        </div>
+        </article>
     );
 }

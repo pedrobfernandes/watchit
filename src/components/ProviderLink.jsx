@@ -26,11 +26,6 @@ export default function ProviderLink(props)
                 width={185}
                 height={278}
             />
-
-            <div className="link-overlay">
-                <p className="overlay-content">
-                </p>
-            </div>
         </div>
     );
 }
