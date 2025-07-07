@@ -165,7 +165,7 @@ export async function fetchTMDBTrailer(mediaType, mediaId)
     {
         
         searchResults = await makeTMDBFetch(path, "", false);
-        trailer = extractTrailer(fallbackResults);
+        trailer = extractTrailer(searchResults);
     }
 
     return(trailer || null);
