@@ -2,7 +2,7 @@
 
 # watchit
 
-**watchit** é um aplicativo web feito em **React** que consome a API do [TMDB (The Movie Database)](https://www.themoviedb.org/) para exibir listas de filmes e séries populares e mais bem avaliados. O projeto permite também pesquisar filmes/séries pelo nome, visualizar detalhes e trailers, elenco e onde assistir.
+Aplicativo web feito em **React** que consome a API do [TMDB (The Movie Database)](https://www.themoviedb.org/), para exibir listas de filmes e séries populares e mais bem avaliados. O projeto permite também pesquisar filmes/séries pelo nome, visualizar detalhes e trailers, elenco e onde assistir via streaming.
 
 ## Screenshots
 
@@ -30,10 +30,10 @@
 
 ## Funcionalidades
 
-- Exibe **filmes e séries populares** (endpoint `popular`)
-- Exibe os **mais votados** (endpoint `top_rated`)
+- **Filmes e séries populares** (endpoint `popular`)
+- **Filmes e séries mais votados** (endpoint `top_rated`)
 - Pesquisa por título de filme/série
-- Cards com pôster + overlay com título e nota
+- Cards com pôster + título e nota
 - Página de **detalhes completa** com:
   - Poster e trailer (modal com `<dialog>` e `iframe`, de acordo com a disponibilidade no TMDB)
   - Título, sinopse, gêneros
