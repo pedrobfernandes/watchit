@@ -14,12 +14,24 @@
 
 .poster-container
 {
+    position: relative;
     width: var(--max-size);
     max-width: 30rem;
     border: var(--border-style);
     border-radius: 0.5rem;
     aspect-ratio: 500/750;
     overflow: hidden;
+}
+
+.poster-container p
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--text-color);
+    width: var(--max-size);
+    text-align: center;
+    padding: 0.5rem 0;
 }
 
 .details

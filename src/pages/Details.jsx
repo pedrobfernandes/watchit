@@ -208,6 +208,7 @@ export default function Details()
                         onClick={handlePosterClick}
                         aria-label="Assistir Trailer"
                     >
+                        <p>Assistir Trailer</p>
                         <img
                             src={poster.src}
                             alt={poster.alt}
