@@ -37,7 +37,7 @@ Aplicativo web responsivo desenvolvido com React que consome a [API do TMDB](htt
 - 📺 Detalhamento de temporadas e episódios para séries
 - 🌐 Informações sobre plataformas de streaming
 - 📱 Layout responsivo (mobile-first) com foco em acessibilidade
-- ➕ Paginação com carregamento incremental (infinite scroll)
+- ➕ Paginação por botão "Carregar mais" no final de cada secção
 - 🔗 Links diretos para o TMDB (filmes/séries e perfis de atores)
 - 🌐 Navegação com React Router
 
