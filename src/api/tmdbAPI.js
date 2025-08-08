@@ -199,7 +199,6 @@ function extractTrailer(searchResults)
         
         if (trailer)
         {
-            console.log(trailer);
             return(trailer);
         }
     }
