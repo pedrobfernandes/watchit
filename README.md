@@ -1,8 +1,8 @@
 [watchit](https://watchit123.netlify.app/)
 
-# watchit
+# 🎬 Watchit — Web App de Filmes e Séries
 
-Aplicativo web feito em **React** que consome a API do [TMDB (The Movie Database)](https://www.themoviedb.org/), para exibir listas de filmes e séries populares e mais bem avaliados. O projeto permite também pesquisar filmes/séries pelo nome, visualizar detalhes e trailers, elenco e onde assistir via streaming.
+Aplicativo web responsivo desenvolvido com React que consome a [API do TMDB](https://www.themoviedb.org/) para exibir listas de filmes e séries populares, mais bem avaliados e permitir buscas por título. A aplicação também oferece uma página de detalhes completa com trailer, elenco, temporadas, plataformas de streaming disponíveis e mais.
 
 ## Screenshots
 
@@ -28,38 +28,32 @@ Aplicativo web feito em **React** que consome a API do [TMDB (The Movie Database
 </p>
 
 
-## Funcionalidades
+## 📌 Funcionalidades
 
-- **Filmes e séries populares** (endpoint `popular`)
-- **Filmes e séries mais votados** (endpoint `top_rated`)
-- Pesquisa por título de filme/série
-- Cards com pôster + título e nota
-- Página de **detalhes completa** com:
-  - Poster e trailer (modal com `<dialog>` e `iframe`, de acordo com a disponibilidade no TMDB)
-  - Título, sinopse, gêneros
-  - Temporadas e episódios (se for série)
-  - Elenco com foto, nome real e nome no filme/série
-  - Links diretos para os atores no TMDB
-  - Informações sobre provedores de streaming
-  - Link direto para o TMDB do filme/série
-- Layout **mobile-first**
-- Design com **foco em acessibilidade**
-- Visualização por página (no fim de cada seção tem botão para carregar a próxima página)
-- Navegação com React Router
+- 🔎 Pesquisa de filmes e séries por nome
+- 📈 Listagens de "Populares" e "Mais bem avaliados"
+- 🎥 Visualização de trailers (com `<dialog>` e `iframe`)
+- 🧑‍🤝‍🧑 Exibição do elenco com fotos e nomes (real/personagem)
+- 📺 Detalhamento de temporadas e episódios para séries
+- 🌐 Informações sobre plataformas de streaming
+- 📱 Layout responsivo (mobile-first) com foco em acessibilidade
+- ➕ Paginação com carregamento incremental (infinite scroll)
+- 🔗 Links diretos para o TMDB (filmes/séries e perfis de atores)
+- 🌐 Navegação com React Router
 
 ---
 
-## Tecnologias
+## 🛠️ Tecnologias Utilizadas
 
 - **React**
-- **CSS puro**
 - **React Router DOM**
 - **React Query (TanStack Query)**
   - `useInfiniteQuery` para listas com paginação
-  - `useQuery` para detalhes de filmes/séries
+  - `useQuery` para detalhes
 - **Fetch API** (sem Axios)
-- **React Icons** (para ícones como estrela de avaliação)
-- **TMDB API**
+- **CSS puro**
+- **React Icons**
+- **API do TMDB**
 - **Netlify Functions (Serverless)** para proteger a chave da API
 
 ---
