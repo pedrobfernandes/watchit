@@ -172,26 +172,37 @@ export async function fetchTMDBTrailer(mediaType, mediaId)
 }
 
 
+
 function extractTrailer(searchResults)
 {
-    if (!searchResults.results || !Array.isArray(searchResults.results))
+    if (!searchResults.results ||
+        !Array.isArray(searchResults.results))
     {
         return(null);
     }
-
-    let trailer = searchResults.results.find(video =>
-        video.type === "Trailer" &&
-        video.site === "YouTube" &&
-        video.official
-    );
-
-    if (!trailer)
+    
+    const trailerFilters =
+    [
+        video => video.type === "Trailer"
+            && video.site === "YouTube"
+            && video.official,
+        
+        video => video.type === "Trailer"
+            && video.site === "YouTube",
+        
+        video => video.site === "YouTube",
+    ];
+    
+    for (const trailerFilter of trailerFilters)
     {
-        trailer = searchResults.results.find(video =>
-            video.type === "Trailer" &&
-            video.site === "YouTube"
-        );
+        const trailer = searchResults.results.find(trailerFilter);
+        
+        if (trailer)
+        {
+            console.log(trailer);
+            return(trailer);
+        }
     }
-
-    return(trailer || null);
+    
+    return(null);
 }
