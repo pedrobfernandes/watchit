@@ -67,9 +67,7 @@ a, button
 
 
 a:hover,
-a:focus,
-button:hover,
-button:focus
+button:hover
 {
     transform: var(--transform-hover);
     border: var(--border-style-hover);
