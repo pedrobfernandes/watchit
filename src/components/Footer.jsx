@@ -7,7 +7,7 @@
                 <div className="footer-container">
     
                     <p className="author-link">
-                        <span className="copyright">© 2025</span>
+                        <span className="copyright">&copy; 2025</span>
                         <a
                             href="https://github.com/pedrobfernandes"
                             target="_blank"
@@ -44,4 +44,3 @@
             </footer>
         );
     }
-    
