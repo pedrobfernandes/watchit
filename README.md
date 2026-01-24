@@ -68,7 +68,7 @@ Este projeto foi desenvolvido com foco em usabilidade e acessibilidade básica p
 - Uso criterioso de atributos ARIA quando necessário
 - Componentes como `<dialog>` utilizados de forma acessível
 
-⚠️ Nota: No momento em que criei este projeto, não tinha conhecimento das "nuances" do comportamento de leitores de tela em relação a sites spa versus sites de múltiplas páginas. Cito o fato de que em apps spa o leitor não sabe que a página foi trocada. Por conta disso, o projeto é amigável a leitores de tela até o momento da troca de rotas.
+⚠️ Nota: No momento em que criei este projeto, não tinha conhecimento das "nuances" do comportamento de leitores de tela em relação a sites spa versus sites de múltiplas páginas. Em aplicações SPA, o leitor de tela não reconhece automaticamente a mudança de página/rota. Por conta disso, o projeto é amigável a leitores de tela até o momento em que ocorre a troca de páginas.
 
 ---
 
