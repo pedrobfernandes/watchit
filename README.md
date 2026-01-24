@@ -58,9 +58,28 @@ Aplicativo web responsivo desenvolvido com React que consome a [API do TMDB](htt
 
 ---
 
+## ♿ Acessibilidade
+
+Este projeto foi desenvolvido com foco em usabilidade e acessibilidade básica para aplicações SPA.
+
+- Uso de HTML semântico e landmarks
+- Navegação completa por teclado
+- Contraste de cores validado
+- Uso criterioso de atributos ARIA quando necessário
+- Componentes como `<dialog>` utilizados de forma acessível
+
+⚠️ Nota: No momento em que criei este projeto, não tinha conhecimento das "nuances" do comportamento de leitores de tela em relação a sites spa versus sites de múltiplas páginas. Cito o fato de que em apps spa o leitor não sabe que a página foi trocada. Por conta disso, o projeto é amigável a leitores de tela até o momento da troca de rotas.
+
+---
+
+## 🧠 Decisões Técnicas
+
+- Optei por paginação via botão “Carregar mais” em vez de scroll infinito para manter previsibilidade de navegação e melhor controle de foco.
+- Utilizei Netlify Functions para evitar exposição da chave da API do TMDB no frontend.
+
 ## Proposito do projeto
 
-Este projeto foi criado como parte do meu processo de aprendizado em React, mas com o objetivo de ser **totalmente funcional e usável na prática**.
+Este projeto foi criado como parte do meu processo de aprendizado em React, com foco em consumo de APIs, gerenciamento de estado assíncrono e construção de aplicações SPA funcionais e acessíveis.
 
 ---
 
