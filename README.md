@@ -1,19 +1,54 @@
-[watchit](https://watchit123.netlify.app/)
+# 🎬 Watchit
 
-# 🎬 Watchit — Web App de Filmes e Séries
+Aplicação web para descoberta de filmes e séries, desenvolvida com React, com foco em consumo de API, navegação SPA e interface responsiva.
 
-Aplicativo web responsivo desenvolvido com React que consome a [API do TMDB](https://www.themoviedb.org/) para exibir listas de filmes e séries populares, mais bem avaliados e permitir buscas por título. A aplicação também oferece uma página de detalhes completa com trailer, elenco, temporadas, plataformas de streaming disponíveis e mais.
+🔗 **Demo:** https://watchit123.netlify.app/
 
-## Screenshots
+---
 
-<p align="center">
-  <img loading="lazy" src="/Screenshots/img01.png"/>
-  <img loading="lazy" src="/Screenshots/img02.png"/>
-</p>
+## 🚀 Funcionalidades
 
-<p align="center">
-  <img loading="lazy" src="/Screenshots/img04.png"/>
-</p>
+* 🔎 Busca de filmes e séries por nome
+* 📈 Listas de populares e mais bem avaliados
+* 🎥 Reprodução de trailers
+* 🧑‍🤝‍🧑 Exibição de elenco (ator/personagem)
+* 📺 Detalhes de séries (temporadas e episódios)
+* 🌐 Informações sobre plataformas de streaming
+* ➕ Paginação via botão “Carregar mais”
+* 📱 Layout responsivo (mobile-first)
+* 🔗 Links para páginas externas do TMDB
+
+---
+
+## 🛠️ Tecnologias
+
+* React
+* React Router
+* React Query (TanStack Query)
+* Fetch API
+* CSS
+* React Icons
+* API do TMDB
+* Netlify Functions (proteção de chave de API)
+
+---
+
+## ♿ Acessibilidade
+
+Este projeto implementa boas práticas básicas de acessibilidade em aplicações SPA:
+
+* HTML semântico e landmarks
+* Navegação por teclado
+* Uso de ARIA quando necessário
+* Contraste de cores validado
+
+### ⚠️ Limitação conhecida
+
+Por ter sido desenvolvido antes de uma experiência mais aprofundada com leitores de tela, mudanças de rota em SPA não são anunciadas automaticamente.
+
+---
+
+## 📸 Preview
 
 <p align="center">
   <img loading="lazy" src="/Screenshots/img05.png"/>
@@ -27,62 +62,25 @@ Aplicativo web responsivo desenvolvido com React que consome a [API do TMDB](htt
   <img loading="lazy" src="/Screenshots/img07.png"/>
 </p>
 
-
-## 📌 Funcionalidades
-
-- 🔎 Pesquisa de filmes e séries por nome
-- 📈 Listagens de "Populares" e "Mais bem avaliados"
-- 🎥 Visualização de trailers (com `<dialog>` e `iframe`)
-- 🧑‍🤝‍🧑 Exibição do elenco com fotos e nomes (real/personagem)
-- 📺 Detalhamento de temporadas e episódios para séries
-- 🌐 Informações sobre plataformas de streaming
-- 📱 Layout responsivo (mobile-first) com foco em acessibilidade
-- ➕ Paginação por botão "Carregar mais" no final de cada secção
-- 🔗 Links diretos para o TMDB (filmes/séries e perfis de atores)
-- 🌐 Navegação com React Router
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **React**
-- **React Router DOM**
-- **React Query (TanStack Query)**
-  - `useInfiniteQuery` para listas com paginação
-  - `useQuery` para detalhes
-- **Fetch API** (sem Axios)
-- **CSS puro**
-- **React Icons**
-- **API do TMDB**
-- **Netlify Functions (Serverless)** para proteger a chave da API
-
----
-
-## ♿ Acessibilidade
-
-Este projeto foi desenvolvido com foco em usabilidade e acessibilidade básica para aplicações SPA.
-
-- Uso de HTML semântico e landmarks
-- Navegação completa por teclado
-- Contraste de cores validado
-- Uso criterioso de atributos ARIA quando necessário
-- Componentes como `<dialog>` utilizados de forma acessível
-
-⚠️ Nota: No momento em que criei este projeto, não tinha conhecimento das "nuances" do comportamento de leitores de tela em relação a sites spa versus sites de múltiplas páginas. Em aplicações SPA, o leitor de tela não reconhece automaticamente a mudança de página/rota. Por conta disso, o projeto é amigável a leitores de tela até o momento em que ocorre a troca de páginas.
-
 ---
 
 ## 🧠 Decisões Técnicas
 
-- Optei por paginação via botão “Carregar mais” em vez de scroll infinito para manter previsibilidade de navegação e melhor controle de foco.
-- Utilizei Netlify Functions para evitar exposição da chave da API do TMDB no frontend.
-
-## Proposito do projeto
-
-Este projeto foi criado como parte do meu processo de aprendizado em React, com foco em consumo de APIs, gerenciamento de estado assíncrono e construção de aplicações SPA funcionais e acessíveis.
+* Paginação com botão “Carregar mais” para melhor controle de navegação e foco
+* Uso de Netlify Functions para evitar exposição da chave da API
 
 ---
 
-## Autor
-Pedro Fernandes
+## 🎯 Objetivo
 
+Projeto desenvolvido como parte do processo de aprendizado em:
+
+* Consumo de APIs
+* Gerenciamento de estado assíncrono
+* Estruturação de aplicações SPA
+
+---
+
+## 👨‍💻 Autor
+
+Pedro Fernandes
