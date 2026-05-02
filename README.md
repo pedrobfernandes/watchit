@@ -1,6 +1,6 @@
 # 🎬 Watchit
 
-Aplicação web para descoberta de filmes e séries, desenvolvida com React, com foco em consumo de API, navegação SPA e interface responsiva.
+Aplicação de exploração de filmes e séries com dados em tempo real, desenvolvida com React, focada em consumo de API, gerenciamento de estado assíncrono e navegação SPA.
 
 🔗 **Demo:** https://watchit123.netlify.app/
 
