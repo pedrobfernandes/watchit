@@ -33,13 +33,24 @@ Aplicação de exploração de filmes e séries com dados em tempo real, desenvo
 
 ---
 
+## 🧠 Aprendizados
+
+Durante o desenvolvimento deste projeto, aprofundei conhecimentos em:
+
+* Consumo de APIs externas e tratamento de dados
+* Gerenciamento de estado assíncrono com TanStack Query
+* Estruturação de aplicações SPA com React Router
+* Organização de componentes e separação de responsabilidades
+
+---
+
 ## ♿ Acessibilidade
 
-Este projeto implementa boas práticas básicas de acessibilidade em aplicações SPA:
+Aplicação com implementação de práticas de acessibilidade em SPA:
 
 * HTML semântico e landmarks
 * Navegação por teclado
-* Uso de ARIA quando necessário
+* Uso de WAI-ARIA quando necessário
 * Contraste de cores validado
 
 ### ⚠️ Limitação conhecida
@@ -73,11 +84,7 @@ Por ter sido desenvolvido antes de uma experiência mais aprofundada com leitore
 
 ## 🎯 Objetivo
 
-Projeto desenvolvido como parte do processo de aprendizado em:
-
-* Consumo de APIs
-* Gerenciamento de estado assíncrono
-* Estruturação de aplicações SPA
+Aplicar na prática conceitos de consumo de APIs, gerenciamento de estado assíncrono e construção de interfaces SPA com React.
 
 ---
 
