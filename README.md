@@ -53,9 +53,12 @@ Aplicação com implementação de práticas de acessibilidade em SPA:
 * Uso de WAI-ARIA quando necessário
 * Contraste de cores validado
 
-### ⚠️ Limitação conhecida
+### ⚠️ Limitações conhecidas
 
-Por ter sido desenvolvido antes de uma experiência mais aprofundada com leitores de tela, mudanças de rota em SPA não são anunciadas automaticamente.
+Este projeto foi desenvolvido antes de uma experiência mais aprofundada com leitores de tela.
+
+* Mudanças de rota na SPA não são anunciadas automaticamente
+* O modal de reprodução de trailer não possui gerenciamento completo de foco (focus trap)
 
 ---
 
